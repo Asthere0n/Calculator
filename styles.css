@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.layout {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #999;
+}
+#screen {
+  width: 60%;
+  height: 60px;
+  margin: 10px 0px 20px 0px;
+  padding: 8px;
+  background-color: #141414;
+  color: green;
+  font-size: x-large;
+  border: 0px;
+}
+#buttonPannel {
+  width: 60%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
+  grid-template: "reset percentage potence divide" "b7 b8 b9 multiply" "b4 b5 b6 sustract" "b1 b2 b3 add" "b0 dot total total";
+}
+#buttonPannel button {
+  border-radius: 10px;
+  background-color: #555;
+  color: white;
+  font-size: larger;
+  font-weight: 700;
+  border-color: #888;
+  box-shadow: 2px 3px 3px #474747;
+}
+#buttonPannel #buttonReset {
+  grid-area: reset;
+}
+#buttonPannel #buttonPercentage {
+  grid-area: percentage;
+}
+#buttonPannel #buttonPotence {
+  grid-area: potence;
+}
+#buttonPannel #buttonDivide {
+  grid-area: divide;
+}
+#buttonPannel #buttonN7 {
+  grid-area: b7;
+}
+#buttonPannel #buttonN8 {
+  grid-area: b8;
+}
+#buttonPannel #buttonN9 {
+  grid-area: b9;
+}
+#buttonPannel #buttonMultiply {
+  grid-area: multiply;
+}
+#buttonPannel #buttonN4 {
+  grid-area: b4;
+}
+#buttonPannel #buttonN5 {
+  grid-area: b5;
+}
+#buttonPannel #buttonN6 {
+  grid-area: b6;
+}
+#buttonPannel #buttonAdd {
+  grid-area: add;
+}
+#buttonPannel #buttonN1 {
+  grid-area: b1;
+}
+#buttonPannel #buttonN2 {
+  grid-area: b2;
+}
+#buttonPannel #buttonN3 {
+  grid-area: b3;
+}
+#buttonPannel #buttonDot {
+  grid-area: dot;
+}
+#buttonPannel #buttonN0 {
+  grid-area: b0;
+}
+#buttonPannel #buttonTotal {
+  grid-area: total;
+  background-color: red;
+  border-color: #ff1a1a;
+}
