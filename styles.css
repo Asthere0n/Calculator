@@ -28,7 +28,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 10px;
-  grid-template: "reset percentage potence divide" "b7 b8 b9 multiply" "b4 b5 b6 sustract" "b1 b2 b3 add" "b0 dot total total";
+  grid-template: "reset delete potence divide" "b7 b8 b9 multiply" "b4 b5 b6 sustract" "b1 b2 b3 add" "b0 dot total total";
 }
 #buttonPannel button {
   border-radius: 10px;
@@ -42,8 +42,8 @@
 #buttonPannel #buttonReset {
   grid-area: reset;
 }
-#buttonPannel #buttonPercentage {
-  grid-area: percentage;
+#buttonPannel #buttonDelete {
+  grid-area: delete;
 }
 #buttonPannel #buttonPotence {
   grid-area: potence;
